@@ -1,0 +1,92 @@
+
+/*
+   File: pacific.css
+   GUI Assignment: Style a Site with External CSS
+   Author: Aaron Roche, UMass Lowell Computer Science
+   Email: aaron_roche@student.uml.edu
+*/
+
+/* Global styles */
+body {
+    background: #00569f url("ptrbackground.jpg") repeat-x;
+    color: #666;
+    font: 100%/1.5 Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Header styles */
+header {
+    background: rgb(0,0,50) url(sunset.jpg) no-repeat right;
+    color: white;
+}
+
+/* Navigation styles */
+nav {
+    float: left;
+    width: 190px;
+}
+
+nav ul {
+    font: bold 1.2em sans-serif;
+    list-style: none;
+    padding-left: 20px;
+}
+
+nav a {
+    color: #033;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFF;
+}
+
+/* Content styles */
+#content {
+    background: white;
+    margin-left: 190px;
+    padding: 20px 30px;
+}
+
+#content ul {
+    list-style: inside url('marker.gif');
+}
+
+#content img {
+    float: left;
+    margin-right: 20px;
+}
+
+#content span.resort {
+    color: #3399CC;
+    font-weight: bold;
+}
+
+/* Contact section styles */
+#contact {
+    font-size: 90%;
+}
+
+/* Wrapper styles */
+#wrapper {
+    background: rgb(144,200,227);
+    margin: 0 auto;
+    min-width: 600px;
+    width: 80%;
+}
+
+/* Footer styles */
+footer {
+    background: white;
+    font: italic 75% Georgia, "Times New Roman", serif;
+    padding: 20px;
+    margin-left: 190px;
+}
